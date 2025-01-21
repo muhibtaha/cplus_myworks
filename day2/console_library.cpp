@@ -130,7 +130,9 @@ count, and endl, you might start your program with
 using std::cin;
 using std::cout;
 using std::endl;*/
-
+ 
+ 
+ //so n
 
 
 
