@@ -9,7 +9,7 @@ int main() {
 	auto x=3;
 	cout << "Type is " << typeid(x).name() << endl;
  
- 	int8_t y =65; //it gives us ASCII values as examples it gives us A 
+ 	int8_t y =66; //it gives us ASCII values as examples it gives us A 
 	cout << "Y is:" << y << endl;
 
 	double z=12.5;
