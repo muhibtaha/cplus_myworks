@@ -1,1 +1,1 @@
-Self studies about c++ to undertand clear the subjects.
+Self studies about c++ to understand clearly the subjects.
