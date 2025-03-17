@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <string>
 using namespace std;
 #include <typeinfo>
 #include <fstream>
@@ -30,15 +30,18 @@ int main() {
 	cout.setf(ios::showpoint);
 	cout.precision(2); 
 	
-	cout<< "\n Fixed K is" << k<< endl;
+	cout<< "\n Fixed K is " << k<< endl;
 	
 	ifstream file;  //way of the open file
 	file.open("readme.txt");
 	
-	file >> x;
+
+	string h;
+		while(file>> h) cout<< h<< " ";
+	
 	file.close();
 	
-	cout << "X got from file is : " << x << endl;
+	//cout << "X got from file is : " << x << endl;
 	
  return 0;
 

@@ -9,6 +9,7 @@ int main() {
 	int number;
 	decltype(number*3.5) y(1993.4); // y nin türünü bu ikisinin çarpımına göre atıyor sonra y= 2.9 demekle aynı şeyi yaptık
 	
+	cout<< " Type of y : " << typeid(y).name;
 	cout << "Hello reader. \n"
 	    << "Welcome\n";
 	    
@@ -17,7 +18,7 @@ int main() {
 	   //scanf lemek
 	  std::cin >> number;
 	  
-	  if(number <3)
+	  if(nmber <3)
 	  cout << "Numbeer is smaller than 3 " << endl;
 	  
 	  //type'ını yazdırmak

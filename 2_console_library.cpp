@@ -10,8 +10,8 @@ b= 'c';
 c= a;
 std::cout << a <<b << c << 'c' << std::endl;*/
 
-/*int number = (1/3) *3;
-std::cout << "(1/3) *3 equal to " << number;*/
+int number = ((float)1/3) *3;
+std::cout << "(1/3) *3 equal to " << number;
 
 
 /*int a,b;

@@ -24,7 +24,7 @@ cout<< "Multiple of given numbers are " << F(2) << endl;
 printf("Multiple of given numbers are %d\n", F(2));
 
 
-//cout<< T(3.5, 2) << endl;
+cout<< T(3.5, 2) << endl;
 return 0;
 
 }
