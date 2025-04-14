@@ -87,7 +87,7 @@ int main(){
     		srand(time(0));
 int a_win=0, b_win=0, c_win=0;
 
-for (int i = 0; i < 10000; i++)
+for (int i = 0; i < 100000; i++)
 {
     bool a_live = true, b_live = true, c_live=true;
 
