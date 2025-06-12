@@ -1,6 +1,6 @@
 
 #ifndef prime_h
-#define 12_H
+#define 12_SEPERATION_H
 
 #include <iostream>
 using namespace std;
