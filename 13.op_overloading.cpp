@@ -22,7 +22,7 @@ public:
 return os;
     }
 
-    friend bool operator== (&Student s1,&Student s1 ) const{
+    friend bool operator== (&Student s1,&Student s2 ) const{
         if (s1.age==s2.age && s1.name==s2.name)
         {
             return true;
